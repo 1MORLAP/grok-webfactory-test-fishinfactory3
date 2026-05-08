@@ -1,19 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fishin' Factory 3 - Variant A (Faithful Modern Redesign)</title>
-<script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fishin' Factory 3 - A (Faithful Redesign)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body class="bg-slate-950 text-slate-100">
-<nav>...</nav>
-<header>...</header>
-<!-- Full content from the original site including all baits, services, hours, address, phone -->
-<section id="baits">
-<h2>Baits We Carry</h2>
-<!-- List all live, frozen, offshore baits -->
-</section>
-<footer>...</footer>
+  <!-- Full modern redesign with all content from the original site preserved -->
+  <nav class="bg-slate-900 border-b border-emerald-400 p-4 sticky top-0">
+    <div class="max-w-7xl mx-auto flex justify-between items-center">
+      <div class="flex items-center gap-3"><i class="fa-solid fa-fish text-4xl text-emerald-400"></i><span class="text-3xl font-bold">Fishin' Factory 3</span></div>
+      <div class="flex gap-8">
+        <a href="#baits" class="hover:text-emerald-400">Baits</a>
+        <a href="#services" class="hover:text-emerald-400">Services</a>
+        <a href="#hours" class="hover:text-emerald-400">Hours</a>
+        <a href="#location" class="hover:text-emerald-400">Location</a>
+      </div>
+    </div>
+  </nav>
+  <header class="relative h-screen flex items-center justify-center bg-[radial-gradient(#0f172a,#052e16)]">
+    <div class="text-center z-10">
+      <h1 class="text-6xl font-bold">Welcome to Fishin' Factory 3</h1>
+      <p class="text-3xl text-emerald-200 mt-4">30+ years • CT River & Long Island Sound Specialist</p>
+    </div>
+  </header>
+  <section id="about" class="max-w-7xl mx-auto px-6 py-16">
+    <p class="text-xl">Serving Middlesex and surrounding counties for over 30 years, Fishin’ Factory 3 is your Connecticut River and Long Island Sound specialist. We offer Middlesex County's widest variety and selection of rods, reels, tackle and baits.</p>
+    <p class="text-xl mt-8">We are equipped with the latest software to issue inland, saltwater, and hunting licenses. Owner Andrew Nichols and his staff are all avid fisherman with hundreds of hours logged on Long Island Sound, Block Island Sound, Fisher's Island Sound, the Atlantic and the Connecticut River.</p>
+  </section>
+  <section id="baits" class="bg-slate-900 py-16">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-5xl font-bold mb-8">Live, Frozen & Offshore Baits</h2>
+      <div class="grid grid-cols-3 gap-8">
+        <div><h3 class="text-2xl mb-4">Live Baits</h3><ul class="space-y-1 text-lg"><li>Night Crawlers</li><li>Dilly Worms</li><li>Trout Worms</li><li>Meal Worms</li><li>Arkansas Shiners</li><li>Mummies (Chubs)</li><li>Eels</li><li>Sand Worms</li><li>Blood Worm</li><li>Green Crabs</li><li>Spikes</li><li>Wax Worms</li><li>Mousies</li></ul></div>
+        <div><h3 class="text-2xl mb-4">Frozen Baits</h3><ul class="space-y-1 text-lg"><li>Bunker</li><li>Mackerel</li><li>Tinker Mackerel</li><li>California Squid</li><li>Local Squid</li><li>Squid Strips</li><li>Spearing</li><li>Silversides</li><li>Mullet</li><li>Sand Eels</li><li>Clam</li><li>Clam Chum</li><li>Atlantic Herring</li><li>Smelt & Vacuum Sealed Pond Shiners</li></ul></div>
+        <div><h3 class="text-2xl mb-4">Off Shore Baits</h3><ul class="space-y-1 text-lg"><li>Mackerel & Bunker Chum</li><li>Bunker Oil</li><li>Menhaden Milk</li><li>Flats of Mackerel</li><li>Tinker Mackerel</li><li>Bunker</li><li>Squid</li><li>Sardines</li><li>Butterfish</li><li>Bluefish</li><li>Herring & Ballyhoo</li></ul></div>
+      </div>
+    </div>
+  </section>
+  <section id="services" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-5xl font-bold mb-8">Services</h2>
+    <div class="grid grid-cols-2 gap-8">
+      <div class="bg-slate-900 p-8 rounded-3xl"><h3 class="text-3xl">Bell Boat Detailing</h3><p>Call 860-299-3338 for quotes.</p></div>
+      <div class="bg-slate-900 p-8 rounded-3xl"><h3 class="text-3xl">Middlesex Mobile Shrink-Wrap</h3><p>Call 860-343-1785 or 860-558-1384.</p></div>
+    </div>
+  </section>
+  <section id="hours" class="bg-slate-900 py-16">
+    <div class="max-w-7xl mx-auto px-6 text-center"><h2 class="text-5xl font-bold mb-8">2026 Spring/Summer Hours</h2><p class="text-2xl">Monday–Friday 7:30am–6pm • Saturday 6am–6pm • Sunday 6am–4pm</p></div>
+  </section>
+  <section id="location" class="max-w-7xl mx-auto px-6 py-16">
+    <h2 class="text-5xl font-bold mb-8">238 East Main Street, Middletown, CT 06457 • (860) 344-9139</h2>
+  </section>
+  <footer class="bg-black py-8 text-center">GrokWebFactory Variant A - Faithful Redesign</footer>
 </body>
 </html>
